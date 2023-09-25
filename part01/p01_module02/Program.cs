@@ -1,2 +1,2 @@
-﻿string firstName;
+﻿string firstName = "Bob";
 Console.WriteLine(firstName);
