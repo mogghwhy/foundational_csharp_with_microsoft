@@ -1,2 +1,2 @@
 ﻿string firstName;
-firstName = "Bob";
+"Bob" = firstName;
