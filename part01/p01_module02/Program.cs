@@ -1,2 +1,2 @@
-﻿string firstName;
-"Bob" = firstName;
+﻿int firstName;
+firstName = "Bob";
