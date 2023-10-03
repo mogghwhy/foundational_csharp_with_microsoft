@@ -17,3 +17,12 @@ if (total < 15)
 }
 
 Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+
+string message = "The quick brown fox jumps over the lazy dog.";
+bool result = message.Contains("dog");
+Console.WriteLine(result);
+
+if (message.Contains("fox"))
+{
+    Console.WriteLine("What does the fox say?");
+}
