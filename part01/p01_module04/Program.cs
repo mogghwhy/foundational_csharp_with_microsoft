@@ -7,3 +7,6 @@ Console.WriteLine("Sum: " + sum);
 Console.WriteLine("Difference: " + difference);
 Console.WriteLine("Product: " + product);
 Console.WriteLine("Quotient: " + quotient);
+
+decimal decimalQuotient = 7.0m / 5;
+Console.WriteLine($"Decimal quotient: {decimalQuotient}");
