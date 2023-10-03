@@ -21,6 +21,11 @@ int course4Grade = gradeB;
 int course5Grade = gradeA;
 
 int totalCreditHours = 0;
+totalCreditHours += course1Credit;
+totalCreditHours += course2Credit;
+totalCreditHours += course3Credit;
+totalCreditHours += course4Credit;
+totalCreditHours += course5Credit;
 
 Console.WriteLine($"{course1Name} {course1Grade}");
 Console.WriteLine($"{course2Name} {course2Grade}");
