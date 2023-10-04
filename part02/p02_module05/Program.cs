@@ -5,3 +5,5 @@ int gameScore;
 float particlesPerMillion;
 
 bool processedCustomer;
+
+// This is a code comment!
