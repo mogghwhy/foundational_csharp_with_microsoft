@@ -1,9 +1,3 @@
-﻿char userOption;
-
-int gameScore;
-
-float particlesPerMillion;
-
-bool processedCustomer;
-
-// This is a code comment!
+﻿string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine($"{firstName} sold {widgetsSold} widgets.");
