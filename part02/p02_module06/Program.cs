@@ -19,9 +19,6 @@ sophiaScore = (decimal)sophiaSum / currentAssignments;
 
 Console.WriteLine("Student\t\tGrade\n");
 Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA-");
-Console.WriteLine("Andrew:\t\t" + andrewScore + "\tB+");
-Console.WriteLine("Emma:\t\t" + emmaScore + "\tB");
-Console.WriteLine("Logan:\t\t" + loganScore + "\tA-");
 
 Console.WriteLine("Press the Enter key to continue");
 Console.ReadLine();
