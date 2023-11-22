@@ -15,6 +15,9 @@ int loganSum = 0;
 
 decimal sophiaScore;
 
+foreach (int score in sophiaScores)
+{
+}
 sophiaScore = (decimal)sophiaSum / currentAssignments;
 
 Console.WriteLine("Student\t\tGrade\n");
