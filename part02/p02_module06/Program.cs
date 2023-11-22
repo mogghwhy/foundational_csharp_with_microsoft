@@ -12,7 +12,7 @@ int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
 int[] loganScores = new int[] { 90, 95, 87, 88, 96 };
 
 int[] studentScores = new int[10];
-
+Console.WriteLine("Student\t\tGrade\n");
 foreach (var currentStudent in studentNames)
 {
     if (currentStudent == "Sophia")
@@ -36,8 +36,7 @@ foreach (var currentStudent in studentNames)
          sumAssignmentScores += score;
     }
     currentStudentGrade = (decimal)(sumAssignmentScores) / currentAssignments;
-
-    Console.WriteLine("Student\t\tGrade\n");
+    
     Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t?");
 }
 
