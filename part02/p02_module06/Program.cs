@@ -14,15 +14,8 @@ int emmaSum = 0;
 int loganSum = 0;
 
 decimal sophiaScore;
-decimal andrewScore;
-decimal emmaScore;
-decimal loganScore;
-
 
 sophiaScore = (decimal)sophiaSum / currentAssignments;
-andrewScore = (decimal)andrewSum / currentAssignments;
-emmaScore = (decimal)emmaSum / currentAssignments;
-loganScore = (decimal)loganSum / currentAssignments;
 
 Console.WriteLine("Student\t\tGrade\n");
 Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA-");
