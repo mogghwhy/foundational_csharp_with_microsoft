@@ -17,6 +17,7 @@ int gradedAssignments = 0
 Console.WriteLine("Student\t\tGrade\n");
 foreach (var currentStudent in studentNames)
 {
+    int gradedAssignments = 0
     string currentStudentLetterGrade = "";
     if (currentStudent == "Sophia")
         studentScores = sophiaScores;
