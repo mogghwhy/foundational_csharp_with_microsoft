@@ -12,6 +12,8 @@ int[] emmaScores = new int[] { 90, 85, 87, 98, 68, 89, 89, 89 };
 int[] loganScores = new int[] { 90, 95, 87, 88, 96, 96 };
 
 int[] studentScores = new int[10];
+int gradedAssignments = 0
+
 Console.WriteLine("Student\t\tGrade\n");
 foreach (var currentStudent in studentNames)
 {
