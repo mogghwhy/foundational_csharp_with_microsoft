@@ -12,12 +12,12 @@ int[] emmaScores = new int[] { 90, 85, 87, 98, 68, 89, 89, 89 };
 int[] loganScores = new int[] { 90, 95, 87, 88, 96, 96 };
 
 int[] studentScores = new int[10];
-int gradedAssignments = 0
+
 
 Console.WriteLine("Student\t\tGrade\n");
 foreach (var currentStudent in studentNames)
-{
-    int gradedAssignments = 0
+{   
+    int gradedAssignments = 0;
     string currentStudentLetterGrade = "";
     if (currentStudent == "Sophia")
         studentScores = sophiaScores;
@@ -37,7 +37,16 @@ foreach (var currentStudent in studentNames)
 
     foreach (int score in studentScores)
     {
-        sumAssignmentScores += score;
+        gradedAssignments += 1;
+        if (gradedAssignments <= examAssignments)
+        {
+            // add the extra credit points to the sum - bonus points equal to 10% of an exam score
+            sumAssignmentScores += score;
+        }
+        else
+        {
+            sumAssignmentScores += score / 10;
+        }
     }
     currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
 
