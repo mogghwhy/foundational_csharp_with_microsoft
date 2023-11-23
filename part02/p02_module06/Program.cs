@@ -1,7 +1,7 @@
 ﻿using System;
 
 // initialize variables - graded assignments 
-int currentAssignments = 5;
+int examAssignments = 5;
 
 // Student names
 string[] studentNames = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
@@ -39,7 +39,7 @@ foreach (var currentStudent in studentNames)
     {
         sumAssignmentScores += score;
     }
-    currentStudentGrade = (decimal)(sumAssignmentScores) / currentAssignments;
+    currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
 
     if (currentStudentGrade >= 97)
         currentStudentLetterGrade = "A+";
